@@ -1,0 +1,10 @@
+/* line 2, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-decidim_awesome-0.6.2/app/assets/stylesheets/decidim/decidim_awesome/awesome_iframe/iframe.scss */
+.wrapper .awesome-iframe {
+  margin: 0 auto;
+}
+
+/* line 5, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-decidim_awesome-0.6.2/app/assets/stylesheets/decidim/decidim_awesome/awesome_iframe/iframe.scss */
+.wrapper .awesome-iframe iframe {
+  display: block;
+  margin: auto;
+}
