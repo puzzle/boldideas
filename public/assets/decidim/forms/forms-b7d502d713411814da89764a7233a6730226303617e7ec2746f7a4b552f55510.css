@@ -1,0 +1,91 @@
+/* line 1, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly {
+  font-weight: bold;
+  font-size: .875rem;
+}
+
+/* line 5, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly p {
+  margin-bottom: .5rem;
+}
+
+/* line 9, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly em {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+/* line 14, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly p + ul {
+  margin-top: -.5rem;
+}
+
+/* line 19, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly-answers {
+  margin-bottom: .5rem;
+}
+
+/* line 22, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly-answers.single_option {
+  list-style-type: disc;
+}
+
+/* line 26, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly-answers.multiple_option {
+  list-style-type: square;
+}
+
+/* line 30, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly-answers.sorting {
+  list-style-type: circle;
+}
+
+/* line 35, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question_readonly-answer {
+  font-weight: normal;
+}
+
+/* line 40, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix .collection-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* line 47, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix .collection-input input[type="text"] {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 52, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix .collection-input input[type="checkbox"],
+.questionnaire-question-matrix .collection-input input[type="radio"] {
+  margin-bottom: 0;
+}
+
+/* line 56, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix .collection-input input[type="checkbox"] ~ input[type="text"],
+.questionnaire-question-matrix .collection-input input[type="radio"] ~ input[type="text"] {
+  margin-left: .5rem;
+}
+
+/* line 62, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix tr,
+.questionnaire-question-matrix tr:nth-child(2n) {
+  background: initial;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* line 68, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix thead td {
+  text-align: center;
+}
+
+/* line 72, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-forms-0.23.1/app/assets/stylesheets/decidim/forms/forms.scss */
+.questionnaire-question-matrix td {
+  min-width: 100px;
+  border-right: 1px solid #f0f0f0;
+}

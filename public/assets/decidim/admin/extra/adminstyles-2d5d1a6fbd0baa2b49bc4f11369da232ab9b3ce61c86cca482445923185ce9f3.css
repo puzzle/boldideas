@@ -1,0 +1,4 @@
+/* line 1, app/assets/stylesheets/decidim/admin/extra/adminstyles.scss */
+.callout.announcement.warning.cell-announcement {
+  background-color: #fcc;
+}

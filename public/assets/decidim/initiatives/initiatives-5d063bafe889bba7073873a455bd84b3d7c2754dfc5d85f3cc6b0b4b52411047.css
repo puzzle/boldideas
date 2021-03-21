@@ -1,0 +1,209 @@
+/* line 1, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity {
+  min-width: 100px;
+  margin-top: 5px;
+}
+
+/* line 6, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity::before,
+.popularity::after {
+  display: table;
+  content: ' ';
+}
+
+/* line 12, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity::after {
+  clear: both;
+}
+
+/* line 16, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity.extra__popularity {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 21, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity__desc {
+  color: #8c838a;
+  font-size: 90%;
+  padding-top: .3rem;
+  display: block;
+  clear: both;
+}
+
+/* line 29, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity__item {
+  float: left;
+  width: 18.4%;
+  height: 4px;
+  background-color: lightgrey;
+  margin-left: 2%;
+}
+
+/* line 37, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity__item:first-of-type {
+  margin-left: 0;
+}
+
+/* line 41, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity--level1 .popularity__item:first-of-type,
+.popularity--level2 .popularity__item:first-of-type,
+.popularity--level3 .popularity__item:first-of-type,
+.popularity--level4 .popularity__item:first-of-type,
+.popularity--level5 .popularity__item:first-of-type,
+.popularity--level6 .popularity__item:first-of-type {
+  background: #53c9c8;
+}
+
+/* line 50, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity--level2 .popularity__item:nth-of-type(2),
+.popularity--level3 .popularity__item:nth-of-type(2),
+.popularity--level4 .popularity__item:nth-of-type(2),
+.popularity--level5 .popularity__item:nth-of-type(2),
+.popularity--level6 .popularity__item:nth-of-type(2) {
+  background: linear-gradient(to right, #53c9c8, #f9bc48);
+}
+
+/* line 59, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity--level3 .popularity__item:nth-of-type(3),
+.popularity--level4 .popularity__item:nth-of-type(3),
+.popularity--level5 .popularity__item:nth-of-type(3),
+.popularity--level6 .popularity__item:nth-of-type(3) {
+  background: #f9bc48;
+}
+
+/* line 66, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity--level4 .popularity__item:nth-of-type(4),
+.popularity--level5 .popularity__item:nth-of-type(4),
+.popularity--level6 .popularity__item:nth-of-type(4) {
+  background: linear-gradient(to right, #f9bc48 50%, #f85a39);
+}
+
+/* line 73, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/popularity_item.css.scss */
+.popularity--level5 .popularity__item:nth-of-type(5),
+.popularity--level6 .popularity__item:nth-of-type(5) {
+  background: #f85a39;
+}
+
+/* line 1, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/statistics.css.scss */
+.initiative-statistics {
+  margin-top: 25px;
+}
+
+/* line 4, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/statistics.css.scss */
+.initiative-statistics .definition-data__item {
+  flex-basis: 50%;
+}
+
+/* line 8, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/statistics.css.scss */
+.initiative-statistics .definition-data__item:nth-child(odd) {
+  border-right: 1px solid #e8e8e8;
+}
+
+/* line 12, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/statistics.css.scss */
+.initiative-statistics .definition-data__item:nth-last-child(2) {
+  border-bottom: none;
+}
+
+/* line 1, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+.committee_link {
+  border: 1px solid lightgray;
+  float: left;
+  padding: .85em 1em;
+  width: auto;
+}
+
+/* line 8, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+.invite-users-link {
+  padding: .85em 1em;
+}
+
+/* line 12, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+#initiatives_type_remove_banner_image {
+  display: none;
+}
+
+/* line 16, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+#initiatives_type_remove_banner_image + label {
+  display: none;
+}
+
+/* line 20, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 24, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+.white-button {
+  color: #599aa6;
+  background: white;
+}
+
+/* line 29, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/admin.css.scss */
+.white-button:hover {
+  color: #599aa6;
+  background: white;
+  font-weight: bold;
+}
+
+/* line 6, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.ql-formats .ql-video {
+  margin: 0;
+}
+
+/* line 11, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-status {
+  float: left;
+  margin-right: .5rem;
+}
+
+/* line 17, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.supports-list .author {
+  margin-right: 15px;
+}
+
+/* line 20, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.supports-list .author .author__name {
+  color: #599aa6;
+}
+
+/* line 26, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-authors {
+  padding-left: 0 !important;
+}
+
+/* line 29, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-authors .publish-date {
+  display: inline-block;
+  margin-left: -10px;
+}
+
+/* line 34, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-authors .author {
+  margin-right: 15px;
+}
+
+/* line 38, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-authors .author__avatar--small {
+  margin-left: 0 !important;
+}
+
+/* line 42, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.initiative-authors .author__name {
+  margin-left: 25px;
+}
+
+/* line 47, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+/* line 51, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.legal_text {
+  font-size: 8pt;
+}
+
+/* line 56, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-initiatives-0.23.1/app/assets/stylesheet/decidim/initiatives/initiatives.scss */
+.progress__bar--horizontal:last-of-type {
+  margin-bottom: 1.5rem;
+}

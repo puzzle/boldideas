@@ -1,0 +1,69 @@
+/* line 1, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+body {
+  max-width: 1200px;
+}
+
+/* line 5, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+.intro,
+.info {
+  margin-left: 270px;
+  color: #333;
+}
+
+/* line 12, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+.info li {
+  margin-bottom: 1rem;
+}
+
+/* line 16, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+.info h3 {
+  margin-top: 2em;
+}
+
+/* line 21, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+.version {
+  display: inline-block;
+  font-size: .8rem;
+  margin-right: 1rem;
+  padding: 3px 7px;
+  background: #f33;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 33, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+  .intro,
+.info {
+    margin: 10px;
+  }
+}
+
+/* line 39, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+code {
+  font-size: .8em;
+  background: #ddd;
+  padding: .1em;
+}
+
+/* line 45, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+pre {
+  padding: .5rem;
+  background: #f0f0f0;
+  border: 1px solid #e8e8e8;
+}
+
+/* line 50, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+pre code {
+  background: none;
+}
+
+/* line 55, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-api-0.23.1/app/assets/stylesheets/decidim/api/docs.scss */
+blockquote {
+  border-left: 3px solid burlywood;
+  padding: .1em 0 .1em 1rem;
+  margin: 1rem 0;
+  background: #f9f7f5;
+  width: 100%;
+}

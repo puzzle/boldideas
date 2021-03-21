@@ -1,0 +1,2003 @@
+/* Index:
+  1 - Foundation settings
+  2 - Custom styles
+*/
+/* 1 - Foundation settings --------- */
+/* line 10, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.wrapper {
+  width: 100%;
+}
+
+/* line 14, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 18, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 30, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.ExternalClass {
+  width: 100%;
+}
+
+/* line 34, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 43, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100% !important;
+}
+
+/* line 50, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  clear: both;
+  display: block;
+}
+
+/* line 60, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+center {
+  width: 100%;
+  min-width: 580px;
+}
+
+/* line 65, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+a img {
+  border: none;
+}
+
+/* line 69, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+p {
+  margin: 0 0 0 10px;
+}
+
+/* line 73, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 78, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
+  border-collapse: collapse !important;
+}
+
+/* line 86, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table,
+tr,
+td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+@media only screen {
+  /* line 95, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  html {
+    min-height: 100%;
+    background: #f3f3f3;
+  }
+}
+
+/* line 101, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.body {
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 107, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: inherit;
+}
+
+/* line 113, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.row {
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+/* line 119, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.spacer {
+  width: 100%;
+}
+
+/* stylelint-disable property-no-unknown */
+/* line 124, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.spacer td {
+  mso-line-height-rule: exactly;
+}
+
+/* stylelint-enable property-no-unknown */
+/* line 129, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.container table.row {
+  display: table;
+}
+
+/* line 133, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.columns,
+td.column,
+th.columns,
+th.column {
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+/* line 143, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.columns .column,
+td.columns .columns,
+td.column .column,
+td.column .columns,
+th.columns .column,
+th.columns .columns,
+th.column .column,
+th.column .columns {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 155, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.columns .column center,
+td.columns .columns center,
+td.column .column center,
+td.column .columns center,
+th.columns .column center,
+th.columns .columns center,
+th.column .column center,
+th.column .columns center {
+  min-width: none !important;
+}
+
+/* line 166, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.columns.last,
+td.column.last,
+th.columns.last,
+th.column.last {
+  padding-right: 16px;
+}
+
+/* line 173, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.columns table:not(.button),
+td.column table:not(.button),
+th.columns table:not(.button),
+th.column table:not(.button) {
+  width: 100%;
+}
+
+/* line 180, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-1,
+th.large-1 {
+  width: 32.33333px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 187, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-1.first,
+th.large-1.first {
+  padding-left: 16px;
+}
+
+/* line 192, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-1.last,
+th.large-1.last {
+  padding-right: 16px;
+}
+
+/* line 197, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-1,
+.collapse > tbody > tr > th.large-1 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 48.33333px;
+}
+
+/* line 204, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-1.first,
+.collapse th.large-1.first,
+.collapse td.large-1.last,
+.collapse th.large-1.last {
+  width: 56.33333px;
+}
+
+/* line 211, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-1 center,
+th.large-1 center {
+  min-width: .33333px;
+}
+
+/* line 216, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-1,
+.body .column td.large-1,
+.body .columns th.large-1,
+.body .column th.large-1 {
+  width: 8.33333%;
+}
+
+/* line 223, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-2,
+th.large-2 {
+  width: 80.66667px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 230, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-2.first,
+th.large-2.first {
+  padding-left: 16px;
+}
+
+/* line 235, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-2.last,
+th.large-2.last {
+  padding-right: 16px;
+}
+
+/* line 240, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-2,
+.collapse > tbody > tr > th.large-2 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 96.66667px;
+}
+
+/* line 247, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-2.first,
+.collapse th.large-2.first,
+.collapse td.large-2.last,
+.collapse th.large-2.last {
+  width: 104.66667px;
+}
+
+/* line 254, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-2 center,
+th.large-2 center {
+  min-width: 48.66667px;
+}
+
+/* line 259, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-2,
+.body .column td.large-2,
+.body .columns th.large-2,
+.body .column th.large-2 {
+  width: 16.66667%;
+}
+
+/* line 266, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-3,
+th.large-3 {
+  width: 129px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 273, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-3.first,
+th.large-3.first {
+  padding-left: 16px;
+}
+
+/* line 278, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-3.last,
+th.large-3.last {
+  padding-right: 16px;
+}
+
+/* line 283, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-3,
+.collapse > tbody > tr > th.large-3 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 145px;
+}
+
+/* line 290, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-3.first,
+.collapse th.large-3.first,
+.collapse td.large-3.last,
+.collapse th.large-3.last {
+  width: 153px;
+}
+
+/* line 297, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-3 center,
+th.large-3 center {
+  min-width: 97px;
+}
+
+/* line 302, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-3,
+.body .column td.large-3,
+.body .columns th.large-3,
+.body .column th.large-3 {
+  width: 25%;
+}
+
+/* line 309, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-4,
+th.large-4 {
+  width: 177.33333px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 316, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-4.first,
+th.large-4.first {
+  padding-left: 16px;
+}
+
+/* line 321, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-4.last,
+th.large-4.last {
+  padding-right: 16px;
+}
+
+/* line 326, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-4,
+.collapse > tbody > tr > th.large-4 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 193.33333px;
+}
+
+/* line 333, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-4.first,
+.collapse th.large-4.first,
+.collapse td.large-4.last,
+.collapse th.large-4.last {
+  width: 201.33333px;
+}
+
+/* line 340, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-4 center,
+th.large-4 center {
+  min-width: 145.33333px;
+}
+
+/* line 345, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-4,
+.body .column td.large-4,
+.body .columns th.large-4,
+.body .column th.large-4 {
+  width: 33.33333%;
+}
+
+/* line 352, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-5,
+th.large-5 {
+  width: 225.66667px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 359, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-5.first,
+th.large-5.first {
+  padding-left: 16px;
+}
+
+/* line 364, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-5.last,
+th.large-5.last {
+  padding-right: 16px;
+}
+
+/* line 369, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-5,
+.collapse > tbody > tr > th.large-5 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 241.66667px;
+}
+
+/* line 376, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-5.first,
+.collapse th.large-5.first,
+.collapse td.large-5.last,
+.collapse th.large-5.last {
+  width: 249.66667px;
+}
+
+/* line 383, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-5 center,
+th.large-5 center {
+  min-width: 193.66667px;
+}
+
+/* line 388, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-5,
+.body .column td.large-5,
+.body .columns th.large-5,
+.body .column th.large-5 {
+  width: 41.66667%;
+}
+
+/* line 395, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-6,
+th.large-6 {
+  width: 274px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 402, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-6.first,
+th.large-6.first {
+  padding-left: 16px;
+}
+
+/* line 407, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-6.last,
+th.large-6.last {
+  padding-right: 16px;
+}
+
+/* line 412, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-6,
+.collapse > tbody > tr > th.large-6 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 290px;
+}
+
+/* line 419, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-6.first,
+.collapse th.large-6.first,
+.collapse td.large-6.last,
+.collapse th.large-6.last {
+  width: 298px;
+}
+
+/* line 426, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-6 center,
+th.large-6 center {
+  min-width: 242px;
+}
+
+/* line 431, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-6,
+.body .column td.large-6,
+.body .columns th.large-6,
+.body .column th.large-6 {
+  width: 50%;
+}
+
+/* line 438, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-7,
+th.large-7 {
+  width: 322.33333px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 445, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-7.first,
+th.large-7.first {
+  padding-left: 16px;
+}
+
+/* line 450, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-7.last,
+th.large-7.last {
+  padding-right: 16px;
+}
+
+/* line 455, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-7,
+.collapse > tbody > tr > th.large-7 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 338.33333px;
+}
+
+/* line 462, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-7.first,
+.collapse th.large-7.first,
+.collapse td.large-7.last,
+.collapse th.large-7.last {
+  width: 346.33333px;
+}
+
+/* line 469, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-7 center,
+th.large-7 center {
+  min-width: 290.33333px;
+}
+
+/* line 474, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-7,
+.body .column td.large-7,
+.body .columns th.large-7,
+.body .column th.large-7 {
+  width: 58.33333%;
+}
+
+/* line 481, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-8,
+th.large-8 {
+  width: 370.66667px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 488, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-8.first,
+th.large-8.first {
+  padding-left: 16px;
+}
+
+/* line 493, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-8.last,
+th.large-8.last {
+  padding-right: 16px;
+}
+
+/* line 498, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-8,
+.collapse > tbody > tr > th.large-8 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 386.66667px;
+}
+
+/* line 505, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-8.first,
+.collapse th.large-8.first,
+.collapse td.large-8.last,
+.collapse th.large-8.last {
+  width: 394.66667px;
+}
+
+/* line 512, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-8 center,
+th.large-8 center {
+  min-width: 338.66667px;
+}
+
+/* line 517, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-8,
+.body .column td.large-8,
+.body .columns th.large-8,
+.body .column th.large-8 {
+  width: 66.66667%;
+}
+
+/* line 524, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-9,
+th.large-9 {
+  width: 419px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 531, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-9.first,
+th.large-9.first {
+  padding-left: 16px;
+}
+
+/* line 536, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-9.last,
+th.large-9.last {
+  padding-right: 16px;
+}
+
+/* line 541, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-9,
+.collapse > tbody > tr > th.large-9 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 435px;
+}
+
+/* line 548, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-9.first,
+.collapse th.large-9.first,
+.collapse td.large-9.last,
+.collapse th.large-9.last {
+  width: 443px;
+}
+
+/* line 555, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-9 center,
+th.large-9 center {
+  min-width: 387px;
+}
+
+/* line 560, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-9,
+.body .column td.large-9,
+.body .columns th.large-9,
+.body .column th.large-9 {
+  width: 75%;
+}
+
+/* line 567, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-10,
+th.large-10 {
+  width: 467.33333px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 574, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-10.first,
+th.large-10.first {
+  padding-left: 16px;
+}
+
+/* line 579, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-10.last,
+th.large-10.last {
+  padding-right: 16px;
+}
+
+/* line 584, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-10,
+.collapse > tbody > tr > th.large-10 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 483.33333px;
+}
+
+/* line 591, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-10.first,
+.collapse th.large-10.first,
+.collapse td.large-10.last,
+.collapse th.large-10.last {
+  width: 491.33333px;
+}
+
+/* line 598, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-10 center,
+th.large-10 center {
+  min-width: 435.33333px;
+}
+
+/* line 603, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-10,
+.body .column td.large-10,
+.body .columns th.large-10,
+.body .column th.large-10 {
+  width: 83.33333%;
+}
+
+/* line 610, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-11,
+th.large-11 {
+  width: 515.66667px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 617, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-11.first,
+th.large-11.first {
+  padding-left: 16px;
+}
+
+/* line 622, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-11.last,
+th.large-11.last {
+  padding-right: 16px;
+}
+
+/* line 627, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-11,
+.collapse > tbody > tr > th.large-11 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 531.66667px;
+}
+
+/* line 634, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-11.first,
+.collapse th.large-11.first,
+.collapse td.large-11.last,
+.collapse th.large-11.last {
+  width: 539.66667px;
+}
+
+/* line 641, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-11 center,
+th.large-11 center {
+  min-width: 483.66667px;
+}
+
+/* line 646, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-11,
+.body .column td.large-11,
+.body .columns th.large-11,
+.body .column th.large-11 {
+  width: 91.66667%;
+}
+
+/* line 653, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-12,
+th.large-12 {
+  width: 564px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 660, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-12.first,
+th.large-12.first {
+  padding-left: 16px;
+}
+
+/* line 665, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-12.last,
+th.large-12.last {
+  padding-right: 16px;
+}
+
+/* line 670, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse > tbody > tr > td.large-12,
+.collapse > tbody > tr > th.large-12 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 580px;
+}
+
+/* line 677, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.collapse td.large-12.first,
+.collapse th.large-12.first,
+.collapse td.large-12.last,
+.collapse th.large-12.last {
+  width: 588px;
+}
+
+/* line 684, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-12 center,
+th.large-12 center {
+  min-width: 532px;
+}
+
+/* line 689, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.body .columns td.large-12,
+.body .column td.large-12,
+.body .columns th.large-12,
+.body .column th.large-12 {
+  width: 100%;
+}
+
+/* line 696, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-1,
+td.large-offset-1.first,
+td.large-offset-1.last,
+th.large-offset-1,
+th.large-offset-1.first,
+th.large-offset-1.last {
+  padding-left: 64.33333px;
+}
+
+/* line 705, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-2,
+td.large-offset-2.first,
+td.large-offset-2.last,
+th.large-offset-2,
+th.large-offset-2.first,
+th.large-offset-2.last {
+  padding-left: 112.66667px;
+}
+
+/* line 714, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-3,
+td.large-offset-3.first,
+td.large-offset-3.last,
+th.large-offset-3,
+th.large-offset-3.first,
+th.large-offset-3.last {
+  padding-left: 161px;
+}
+
+/* line 723, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-4,
+td.large-offset-4.first,
+td.large-offset-4.last,
+th.large-offset-4,
+th.large-offset-4.first,
+th.large-offset-4.last {
+  padding-left: 209.33333px;
+}
+
+/* line 732, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-5,
+td.large-offset-5.first,
+td.large-offset-5.last,
+th.large-offset-5,
+th.large-offset-5.first,
+th.large-offset-5.last {
+  padding-left: 257.66667px;
+}
+
+/* line 741, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-6,
+td.large-offset-6.first,
+td.large-offset-6.last,
+th.large-offset-6,
+th.large-offset-6.first,
+th.large-offset-6.last {
+  padding-left: 306px;
+}
+
+/* line 750, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-7,
+td.large-offset-7.first,
+td.large-offset-7.last,
+th.large-offset-7,
+th.large-offset-7.first,
+th.large-offset-7.last {
+  padding-left: 354.33333px;
+}
+
+/* line 759, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-8,
+td.large-offset-8.first,
+td.large-offset-8.last,
+th.large-offset-8,
+th.large-offset-8.first,
+th.large-offset-8.last {
+  padding-left: 402.66667px;
+}
+
+/* line 768, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-9,
+td.large-offset-9.first,
+td.large-offset-9.last,
+th.large-offset-9,
+th.large-offset-9.first,
+th.large-offset-9.last {
+  padding-left: 451px;
+}
+
+/* line 777, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-10,
+td.large-offset-10.first,
+td.large-offset-10.last,
+th.large-offset-10,
+th.large-offset-10.first,
+th.large-offset-10.last {
+  padding-left: 499.33333px;
+}
+
+/* line 786, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.large-offset-11,
+td.large-offset-11.first,
+td.large-offset-11.last,
+th.large-offset-11,
+th.large-offset-11.first,
+th.large-offset-11.last {
+  padding-left: 547.66667px;
+}
+
+/* line 795, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+td.expander,
+th.expander {
+  visibility: hidden;
+  width: 0;
+  padding: 0 !important;
+}
+
+/* line 802, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.container.radius {
+  border-radius: 0;
+  border-collapse: separate;
+}
+
+/* line 807, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.block-grid {
+  width: 100%;
+  max-width: 580px;
+}
+
+/* line 812, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.block-grid td {
+  display: inline-block;
+  padding: 8px;
+}
+
+/* line 817, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-2 td {
+  width: 274px !important;
+}
+
+/* line 821, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-3 td {
+  width: 177px !important;
+}
+
+/* line 825, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-4 td {
+  width: 129px !important;
+}
+
+/* line 829, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-5 td {
+  width: 100px !important;
+}
+
+/* line 833, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-6 td {
+  width: 80px !important;
+}
+
+/* line 837, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-7 td {
+  width: 66px !important;
+}
+
+/* line 841, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.up-8 td {
+  width: 56px !important;
+}
+
+/* line 845, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.text-center,
+th.text-center,
+td.text-center,
+h1.text-center,
+h2.text-center,
+h3.text-center,
+h4.text-center,
+h5.text-center,
+h6.text-center,
+p.text-center,
+span.text-center {
+  text-align: center;
+}
+
+/* line 859, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.text-left,
+th.text-left,
+td.text-left,
+h1.text-left,
+h2.text-left,
+h3.text-left,
+h4.text-left,
+h5.text-left,
+h6.text-left,
+p.text-left,
+span.text-left {
+  text-align: left;
+}
+
+/* line 873, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.text-right,
+th.text-right,
+td.text-right,
+h1.text-right,
+h2.text-right,
+h3.text-right,
+h4.text-right,
+h5.text-right,
+h6.text-right,
+p.text-right,
+span.text-right {
+  text-align: right;
+}
+
+/* line 887, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+span.text-center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 596px) {
+  /* line 894, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+    text-align: center !important;
+  }
+  /* line 900, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .small-text-center {
+    text-align: center !important;
+  }
+  /* line 904, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .small-text-left {
+    text-align: left !important;
+  }
+  /* line 908, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+/* line 913, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+img.float-left {
+  float: left;
+  text-align: left;
+}
+
+/* line 918, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+img.float-right {
+  float: right;
+  text-align: right;
+}
+
+/* line 923, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+img.float-center,
+img.text-center {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+/* line 930, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.float-center,
+td.float-center,
+th.float-center {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+/* line 938, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.float-right {
+  margin: 0 auto;
+  float: right;
+  text-align: center;
+}
+
+/* stylelint-disable property-no-unknown */
+/* line 945, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.hide-for-large {
+  display: none !important;
+  mso-hide: all;
+  overflow: hidden;
+  max-height: 0;
+  font-size: 0;
+  width: 0;
+  line-height: 0;
+}
+
+/* stylelint-enable property-no-unknown */
+@media only screen and (max-width: 596px) {
+  /* line 957, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+    max-height: none !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+}
+
+/* stylelint-disable property-no-unknown */
+/* line 968, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.body table.container .hide-for-large * {
+  mso-hide: all;
+}
+
+/* stylelint-enable property-no-unknown */
+@media only screen and (max-width: 596px) {
+  /* line 974, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body table.container .hide-for-large,
+table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  /* line 982, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body table.container .callout-inner.hide-for-large {
+    display: table-cell !important;
+    width: 100% !important;
+  }
+}
+
+/* stylelint-disable property-no-unknown */
+@media only screen and (max-width: 596px) {
+  /* line 990, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+/* stylelint-enable property-no-unknown */
+/* line 999, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+body,
+table.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+td,
+th,
+a {
+  color: #0a0a0a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 1.3;
+}
+
+/* line 1020, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  word-wrap: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* line 1033, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h1 {
+  font-size: 34px;
+}
+
+/* line 1037, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 1041, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h3 {
+  font-size: 28px;
+}
+
+/* line 1045, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h4 {
+  font-size: 24px;
+}
+
+/* line 1049, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h5 {
+  font-size: 20px;
+}
+
+/* line 1053, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h6 {
+  font-size: 18px;
+}
+
+/* line 1057, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+body,
+table.body,
+p,
+td,
+th {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 1066, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 1070, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+p.lead {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* line 1075, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+p.subheader {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #8a8a8a;
+}
+
+/* line 1083, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+small {
+  font-size: 80%;
+  color: #cacaca;
+}
+
+/* line 1088, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+a {
+  color: #5295ad;
+  text-decoration: none;
+}
+
+/* line 1093, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+a:hover {
+  color: #147dc2;
+}
+
+/* line 1097, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+a:active {
+  color: #147dc2;
+}
+
+/* line 1101, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+a:visited {
+  color: #5295ad;
+}
+
+/* line 1105, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+h1 a,
+h1 a:visited,
+h2 a,
+h2 a:visited,
+h3 a,
+h3 a:visited,
+h4 a,
+h4 a:visited,
+h5 a,
+h5 a:visited,
+h6 a,
+h6 a:visited {
+  color: #5295ad;
+}
+
+/* line 1120, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+pre {
+  background: #f3f3f3;
+  margin: 30px 0;
+}
+
+/* line 1125, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+pre code {
+  color: #cacaca;
+}
+
+/* line 1129, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+pre code span.callout {
+  color: #8a8a8a;
+  font-weight: bold;
+}
+
+/* line 1134, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+pre code span.callout-strong {
+  color: #ff6908;
+  font-weight: bold;
+}
+
+/* line 1139, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.hr {
+  width: 100%;
+}
+
+/* line 1143, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.hr th {
+  height: 0;
+  max-width: 580px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #0a0a0a;
+  border-left: 0;
+  margin: 20px auto;
+  clear: both;
+}
+
+/* line 1154, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.stat {
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* line 1159, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+p + .stat {
+  margin-top: -16px;
+}
+
+/* stylelint-disable property-no-unknown */
+/* line 1164, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+span.preheader {
+  display: none !important;
+  visibility: hidden;
+  mso-hide: all !important;
+  font-size: 1px;
+  color: #f3f3f3;
+  line-height: 1px;
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+/* stylelint-enable property-no-unknown */
+/* line 1178, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button {
+  width: auto;
+  margin: 0 0 16px;
+}
+
+/* line 1183, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button table td {
+  text-align: left;
+  color: #fefefe;
+  background: #cb3c29;
+  border: 2px solid #cb3c29;
+}
+
+/* line 1190, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button table td a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #fefefe;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border: 0 solid #cb3c29;
+  border-radius: 3px;
+}
+
+/* line 1201, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.radius table td {
+  border-radius: 4px;
+  border: none;
+}
+
+/* line 1206, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.rounded table td {
+  border-radius: 500px;
+  border: none;
+}
+
+/* line 1211, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button:hover table tr td a,
+table.button:active table tr td a,
+table.button table tr td a:visited,
+table.button.tiny:hover table tr td a,
+table.button.tiny:active table tr td a,
+table.button.tiny table tr td a:visited,
+table.button.small:hover table tr td a,
+table.button.small:active table tr td a,
+table.button.small table tr td a:visited,
+table.button.large:hover table tr td a,
+table.button.large:active table tr td a,
+table.button.large table tr td a:visited {
+  color: #fefefe;
+}
+
+/* line 1226, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.tiny table td,
+table.button.tiny table a {
+  padding: 4px 8px;
+}
+
+/* line 1231, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.tiny table a {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* line 1236, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.small table td,
+table.button.small table a {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* line 1242, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.large table a {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+/* line 1247, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.expand,
+table.button.expanded {
+  width: 100% !important;
+}
+
+/* line 1252, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.expand table,
+table.button.expanded table {
+  width: 50%;
+  margin: auto;
+}
+
+/* line 1258, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.expand table a,
+table.button.expanded table a {
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 1266, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.expand center,
+table.button.expanded center {
+  min-width: 0;
+}
+
+/* line 1271, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button:hover table td,
+table.button:visited table td,
+table.button:active table td {
+  background: #cb3c29;
+  color: #fefefe;
+}
+
+/* line 1278, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button:hover table a,
+table.button:visited table a,
+table.button:active table a {
+  border: 0 solid #147dc2;
+}
+
+/* line 1284, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary table td {
+  background: #777;
+  color: #fefefe;
+  border: 0 solid #777;
+}
+
+/* line 1290, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary table a {
+  color: #fefefe;
+  border: 0 solid #777;
+}
+
+/* line 1295, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary:hover table td {
+  background: #919191;
+  color: #fefefe;
+}
+
+/* line 1300, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary:hover table a {
+  border: 0 solid #919191;
+}
+
+/* line 1304, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary:hover table td a {
+  color: #fefefe;
+}
+
+/* line 1308, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary:active table td a {
+  color: #fefefe;
+}
+
+/* line 1312, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.secondary table td a:visited {
+  color: #fefefe;
+}
+
+/* line 1316, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.success table td {
+  background: #3adb76;
+  border: 0 solid #3adb76;
+}
+
+/* line 1321, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.success table a {
+  border: 0 solid #3adb76;
+}
+
+/* line 1325, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.success:hover table td {
+  background: #23bf5d;
+}
+
+/* line 1329, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.success:hover table a {
+  border: 0 solid #23bf5d;
+}
+
+/* line 1333, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.alert table td {
+  background: #ec5840;
+  border: 0 solid #ec5840;
+}
+
+/* line 1338, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.alert table a {
+  border: 0 solid #ec5840;
+}
+
+/* line 1342, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.alert:hover table td {
+  background: #e23317;
+}
+
+/* line 1346, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.alert:hover table a {
+  border: 0 solid #e23317;
+}
+
+/* line 1350, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.warning table td {
+  background: #ffae00;
+  border: 0 solid #ffae00;
+}
+
+/* line 1355, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.warning table a {
+  border: 0 solid #ffae00;
+}
+
+/* line 1359, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.warning:hover table td {
+  background: #cc8b00;
+}
+
+/* line 1363, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.button.warning:hover table a {
+  border: 0 solid #cc8b00;
+}
+
+/* line 1367, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.callout {
+  margin-bottom: 16px;
+}
+
+/* line 1371, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner {
+  width: 100%;
+  border: 1px solid #cbcbcb;
+  padding: 10px;
+  background: #fefefe;
+}
+
+/* line 1378, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner.primary {
+  background: #def0fc;
+  border: 1px solid #444;
+  color: #0a0a0a;
+}
+
+/* line 1384, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner.secondary {
+  background: #ebebeb;
+  border: 1px solid #444;
+  color: #0a0a0a;
+}
+
+/* line 1390, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner.success {
+  background: #e1faea;
+  border: 1px solid #1b9448;
+  color: #fefefe;
+}
+
+/* line 1396, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner.warning {
+  background: #fff3d9;
+  border: 1px solid #996800;
+  color: #fefefe;
+}
+
+/* line 1402, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th.callout-inner.alert {
+  background: #fce6e2;
+  border: 1px solid #b42912;
+  color: #fefefe;
+}
+
+/* line 1408, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.thumbnail {
+  border: solid 4px #fefefe;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  transition: box-shadow 200ms ease-out;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+/* line 1419, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.thumbnail:hover,
+.thumbnail:focus {
+  box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+}
+
+/* line 1424, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu {
+  width: 580px;
+}
+
+/* line 1428, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu td.menu-item,
+table.menu th.menu-item {
+  padding: 10px;
+  padding-right: 10px;
+}
+
+/* line 1434, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu td.menu-item a,
+table.menu th.menu-item a {
+  color: #5295ad;
+}
+
+/* line 1439, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu.vertical td.menu-item,
+table.menu.vertical th.menu-item {
+  padding: 10px;
+  padding-right: 0;
+  display: block;
+}
+
+/* line 1446, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu.vertical td.menu-item a,
+table.menu.vertical th.menu-item a {
+  width: 100%;
+}
+
+/* line 1451, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu.vertical td.menu-item table.menu.vertical td.menu-item,
+table.menu.vertical td.menu-item table.menu.vertical th.menu-item,
+table.menu.vertical th.menu-item table.menu.vertical td.menu-item,
+table.menu.vertical th.menu-item table.menu.vertical th.menu-item {
+  padding-left: 10px;
+}
+
+/* line 1458, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.menu.text-center a {
+  text-align: center;
+}
+
+/* line 1462, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.menu[align="center"] {
+  width: auto !important;
+}
+
+/* line 1466, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+body.outlook p {
+  display: inline !important;
+}
+
+@media only screen and (max-width: 596px) {
+  /* line 1471, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body img {
+    width: auto;
+    height: auto;
+  }
+  /* line 1476, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body center {
+    min-width: 0 !important;
+  }
+  /* line 1480, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .container {
+    width: 95% !important;
+  }
+  /* line 1484, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .columns,
+table.body .column {
+    height: auto !important;
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  /* line 1494, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .columns .column,
+table.body .columns .columns,
+table.body .column .column,
+table.body .column .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 1502, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .collapse .columns,
+table.body .collapse .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 1508, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-1,
+th.small-1 {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  /* line 1514, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-2,
+th.small-2 {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  /* line 1520, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-3,
+th.small-3 {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  /* line 1526, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-4,
+th.small-4 {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  /* line 1532, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-5,
+th.small-5 {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  /* line 1538, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-6,
+th.small-6 {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  /* line 1544, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-7,
+th.small-7 {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  /* line 1550, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-8,
+th.small-8 {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  /* line 1556, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-9,
+th.small-9 {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  /* line 1562, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-10,
+th.small-10 {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  /* line 1568, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-11,
+th.small-11 {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  /* line 1574, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  td.small-12,
+th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  /* line 1580, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  .columns td.small-12,
+.column td.small-12,
+.columns th.small-12,
+.column th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* line 1588, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-1,
+table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+  }
+  /* line 1593, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-2,
+table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+  }
+  /* line 1598, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-3,
+table.body th.small-offset-3 {
+    margin-left: 25% !important;
+  }
+  /* line 1603, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-4,
+table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+  }
+  /* line 1608, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-5,
+table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+  }
+  /* line 1613, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-6,
+table.body th.small-offset-6 {
+    margin-left: 50% !important;
+  }
+  /* line 1618, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-7,
+table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+  }
+  /* line 1623, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-8,
+table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+  }
+  /* line 1628, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-9,
+table.body th.small-offset-9 {
+    margin-left: 75% !important;
+  }
+  /* line 1633, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-10,
+table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+  }
+  /* line 1638, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body td.small-offset-11,
+table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+  }
+  /* line 1643, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body table.columns td.expander,
+table.body table.columns th.expander {
+    display: none !important;
+  }
+  /* line 1648, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .right-text-pad,
+table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  /* line 1653, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.body .left-text-pad,
+table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  /* line 1658, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.menu {
+    width: 100% !important;
+  }
+  /* line 1662, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.menu td,
+table.menu th {
+    width: auto !important;
+    display: inline-block !important;
+  }
+  /* line 1668, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.menu.vertical td,
+table.menu.vertical th,
+table.menu.small-vertical td,
+table.menu.small-vertical th {
+    display: block !important;
+  }
+  /* line 1675, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.menu[align="center"] {
+    width: auto !important;
+  }
+  /* line 1679, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.button.small-expand,
+table.button.small-expanded {
+    width: 100% !important;
+  }
+  /* line 1684, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.button.small-expand table,
+table.button.small-expanded table {
+    width: 100%;
+  }
+  /* line 1689, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.button.small-expand table a,
+table.button.small-expanded table a {
+    text-align: center !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 1697, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+  table.button.small-expand center,
+table.button.small-expanded center {
+    min-width: 0;
+  }
+}
+
+/* 2 - Custom styles --------- */
+/* line 1705, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.body th.decidim-bar,
+table.body td.decidim-bar {
+  padding: 10px 0;
+  background-color: #1a181d;
+}
+
+/* line 1711, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.body {
+  background-color: #f3f3f3;
+  margin: 20px 0;
+}
+
+/* line 1716, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.decidim-logo {
+  margin-top: 16px;
+}
+
+/* line 1720, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.decidim-logo a {
+  display: inline-block;
+  height: 30px;
+}
+
+/* line 1725, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.cityhall-bar {
+  background-color: #2c2930;
+}
+
+/* line 1729, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.cityhall-logo {
+  width: 150px;
+  margin-top: 16px;
+}
+
+/* line 1734, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.footnote,
+.headnote {
+  padding-top: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+/* line 1741, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.container.main {
+  background: #fefefe;
+}
+
+/* line 1745, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.custom-button {
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 1;
+  padding: .58em 1em;
+  background: red;
+}
+
+/* line 1754, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.button--sc {
+  letter-spacing: .05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 1759, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+.button--sc.large {
+  font-size: 1rem;
+}
+
+/* line 1764, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+table.content.image img {
+  width: 100%;
+}
+
+/* line 1768, ../../../root/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/decidim-core-0.23.1/app/assets/stylesheets/decidim/email.scss */
+th,
+td {
+  box-sizing: border-box;
+}
