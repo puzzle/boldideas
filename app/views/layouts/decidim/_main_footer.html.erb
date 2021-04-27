@@ -1,6 +1,6 @@
 <div class="main-footer">
   <% if current_organization.official_img_footer? %>
-    <%= link_to current_organization.official_url, class: "main-footer__badge" do %>
+    <%= link_to "https://puzzle.ch/decidim", class: "main-footer__badge" do %>
       <%= image_tag current_organization.official_img_footer.url.to_s , alt: current_organization.name %>
     <% end %>
   <% end %>
