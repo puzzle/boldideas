@@ -39,11 +39,14 @@ group :development, :test do
 end
 
 group :development do
+  gem 'awesome_print'
   gem 'letter_opener_web', '~> 1.3'
   gem 'listen', '~> 3.1'
+  gem 'looksee'
   gem 'spring', '~> 2.0'
   gem 'spring-watcher-listen', '~> 2.0'
   gem 'web-console', '~> 3.5'
+  gem 'xray-rails'
 end
 
 group :production do
